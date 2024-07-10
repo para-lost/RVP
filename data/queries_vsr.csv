@@ -1,0 +1,341 @@
+index,sample_id,possible_answers,query_type,query,answer,image_name
+0,0,surfboard,,Is dog on surfboard?,1,000000372029.jpg
+0,1,dog,,Is laptop at the left side of dog?,1,000000434275.jpg
+0,2,train,,Is laptop inside train?,1,000000192707.jpg
+0,3,horse,,Is zebra behind horse?,1,000000568005.jpg
+0,4,dog,,Is chair under dog?,0,000000506296.jpg
+0,5,horse,,Is chair beneath horse?,1,000000276209.jpg
+0,6,dog,,Is chair above dog?,0,000000431440.jpg
+0,7,horse,,Is zebra left of horse?,0,000000568005.jpg
+0,8,train,,Is motorcycle ahead of train?,1,000000052983.jpg
+0,9,dog,,Is bench over dog?,1,000000463593.jpg
+0,10,motorcycle,,Is train perpendicular to motorcycle?,1,000000338407.jpg
+0,11,dog,,Is laptop above dog?,1,000000315577.jpg
+0,12,dog,,Is motorcycle behind dog?,0,000000476468.jpg
+0,13,chair,,Is dog in the middle of chair?,1,000000499225.jpg
+0,14,dog,,Is refrigerator at the left side of dog?,0,000000114504.jpg
+0,15,dog,,Is chair opposite to dog?,1,000000392715.jpg
+0,16,motorcycle,,Is dog on motorcycle?,0,000000054744.jpg
+0,17,dog,,Is bench touching dog?,1,000000565951.jpg
+0,18,train,,Is bench in front of train?,1,000000473642.jpg
+0,19,bench,,Is laptop on bench?,0,000000147375.jpg
+0,20,dog,,Is bench touching dog?,1,000000240653.jpg
+0,21,chair,,Is laptop facing chair?,1,000000211260.jpg
+0,22,train,,Is laptop beside train?,0,000000224670.jpg
+0,23,chair,,Is train away from chair?,1,000000121754.jpg
+0,24,dog,,Is laptop at the left side of dog?,1,000000228857.jpg
+0,25,chair,,Is dog in front of chair?,0,000000458092.jpg
+0,26,handbag,,Is laptop on top of handbag?,1,000000293837.jpg
+0,27,motorcycle,,Is dog on motorcycle?,1,000000002337.jpg
+0,28,dog,,Is laptop in front of dog?,0,000000069745.jpg
+0,29,train,,Is chair on train?,0,000000387478.jpg
+0,30,motorcycle,,Is dog at the left side of motorcycle?,0,000000253260.jpg
+0,31,dog,,Is bench under dog?,1,000000496606.jpg
+0,32,bench,,Is laptop on top of bench?,1,000000257629.jpg
+0,33,chair,,Is dog under chair?,1,000000313520.jpg
+0,34,bench,,Is laptop on top of bench?,1,000000558700.jpg
+0,35,train,,Is motorcycle ahead of train?,1,000000450182.jpg
+0,36,dog,,Is laptop at the left side of dog?,0,000000561411.jpg
+0,37,bench,,Is dog below bench?,0,000000280858.jpg
+0,38,dog,,Is chair behind dog?,1,000000058443.jpg
+0,39,bench,,Is train left of bench?,0,000000245450.jpg
+0,40,dog,,Is chair above dog?,1,000000313520.jpg
+0,41,motorcycle,,Is dog on top of motorcycle?,1,000000089579.jpg
+0,42,horse,,Is dog far away from horse?,0,000000336568.jpg
+0,43,horse,,Is chair away from horse?,1,000000574717.jpg
+0,44,laptop,,Is train contains laptop?,0,000000076547.jpg
+0,45,laptop,,Is train contains laptop?,0,000000253004.jpg
+0,46,dog,,Is refrigerator behind dog?,0,000000114504.jpg
+0,47,motorcycle,,Is dog in front of motorcycle?,0,000000465819.jpg
+0,48,train,,Is motorcycle ahead of train?,0,000000227399.jpg
+0,49,dog,,Is motorcycle under dog?,1,000000211449.jpg
+0,50,train,,Is chair against train?,0,000000330100.jpg
+0,51,motorcycle,,Is dog below motorcycle?,1,000000168317.jpg
+0,52,laptop,,Is chair at the right side of laptop?,1,000000561658.jpg
+0,53,motorcycle,,Is dog on top of motorcycle?,0,000000430245.jpg
+0,54,motorcycle,,Is dog in motorcycle?,1,000000015558.jpg
+0,55,dog,,Is motorcycle behind dog?,0,000000043433.jpg
+0,56,dog,,Is motorcycle behind dog?,0,000000251716.jpg
+0,57,dog,,Is chair behind dog?,0,000000386715.jpg
+0,58,laptop,,Is dog at the right side of laptop?,1,000000351914.jpg
+0,59,laptop,,Is bench touching laptop?,1,000000257629.jpg
+0,60,bench,,Is train perpendicular to bench?,1,000000570588.jpg
+0,61,bench,,Is dog under bench?,1,000000318467.jpg
+0,62,bench,,Is refrigerator behind bench?,0,000000256835.jpg
+0,63,chair,,Is dog under chair?,0,000000456003.jpg
+0,64,refrigerator,,Is bench in front of refrigerator?,0,000000061826.jpg
+0,65,dog,,Is chair under dog?,0,000000395402.jpg
+0,66,dog,,Is chair at the right side of dog?,1,000000033111.jpg
+0,67,chair,,Is laptop at the left side of chair?,0,000000310150.jpg
+0,68,surfboard,,Is dog far from surfboard?,1,000000580248.jpg
+0,69,dog,,Is bench touching dog?,0,000000281764.jpg
+0,70,dog,,Is surfboard under dog?,1,000000372029.jpg
+0,71,dog,,Is laptop off dog?,0,000000396039.jpg
+0,72,motorcycle,,Is dog in front of motorcycle?,0,000000253260.jpg
+0,73,refrigerator,,Is bench in front of refrigerator?,1,000000497591.jpg
+0,74,train,,Is bench part of train?,0,000000313506.jpg
+0,75,motorcycle,,Is dog on motorcycle?,0,000000168317.jpg
+0,76,dog,,Is refrigerator at the left side of dog?,1,000000567106.jpg
+0,77,horse,,Is chair under horse?,1,000000413414.jpg
+0,78,chair,,Is dog on chair?,1,000000448034.jpg
+0,79,dog,,Is wine glass facing dog?,1,000000522288.jpg
+0,80,train,,Is motorcycle at the left side of train?,0,000000338407.jpg
+0,81,motorcycle,,Is dog in front of motorcycle?,0,000000211449.jpg
+0,82,dog,,Is laptop in front of dog?,0,000000464871.jpg
+0,83,refrigerator,,Is laptop in front of refrigerator?,0,000000407390.jpg
+0,84,chair,,Is laptop at the left side of chair?,1,000000322321.jpg
+0,85,horse,,Is bench surrounding horse?,1,000000164698.jpg
+0,86,horse,,Is zebra touching horse?,0,000000024260.jpg
+0,87,horse,,Is dog at the left side of horse?,1,000000366811.jpg
+0,88,chair,,Is dog in chair?,0,000000369521.jpg
+0,89,train,,Is bench in front of train?,0,000000421773.jpg
+0,90,motorcycle,,Is train in front of motorcycle?,0,000000450182.jpg
+0,91,laptop,,Is dog facing away from laptop?,0,000000134112.jpg
+0,92,laptop,,Is dog facing away from laptop?,1,000000350245.jpg
+0,93,refrigerator,,Is dog at the right side of refrigerator?,1,000000396890.jpg
+0,94,chair,,Is dog beneath chair?,1,000000452300.jpg
+0,95,bench,,Is laptop on top of bench?,0,000000054723.jpg
+0,96,chair,,Is dog under chair?,1,000000452300.jpg
+0,97,laptop,,Is train on top of laptop?,1,000000253004.jpg
+0,98,bench,,Is dog under bench?,0,000000579760.jpg
+0,99,dog,,Is refrigerator behind dog?,1,000000504396.jpg
+0,100,bench,,Is refrigerator facing bench?,1,000000540460.jpg
+0,101,chair,,Is dog facing chair?,0,000000456003.jpg
+0,102,dog,,Is motorcycle in front of dog?,1,000000001915.jpg
+0,103,bench,,Is train left of bench?,1,000000167892.jpg
+0,104,horse,,Is chair below horse?,0,000000574717.jpg
+0,105,bench,,Is laptop at the edge of bench?,0,000000264250.jpg
+0,106,dog,,Is chair over dog?,0,000000431440.jpg
+0,107,bench,,Is laptop at the edge of bench?,1,000000418107.jpg
+0,108,bench,,Is train perpendicular to bench?,0,000000119861.jpg
+0,109,horse,,Is dog far away from horse?,1,000000300322.jpg
+0,110,dog,,Is motorcycle behind dog?,1,000000430245.jpg
+0,111,chair,,Is train contains chair?,0,000000012681.jpg
+0,112,horse,,Is zebra behind horse?,0,000000302924.jpg
+0,113,bench,,Is laptop touching bench?,1,000000299004.jpg
+0,114,laptop,,Is dog above laptop?,0,000000464871.jpg
+0,115,dog,,Is bench below dog?,1,000000452891.jpg
+0,116,dog,,Is laptop above dog?,0,000000481773.jpg
+0,117,horse,,Is chair beneath horse?,1,000000004979.jpg
+0,118,laptop,,Is chair facing laptop?,0,000000248643.jpg
+0,119,horse,,Is dog facing horse?,0,000000300322.jpg
+0,120,horse,,Is zebra touching horse?,1,000000357044.jpg
+0,121,chair,,Is laptop facing chair?,0,000000239318.jpg
+0,122,chair,,Is laptop facing away from chair?,1,000000131011.jpg
+0,123,bench,,Is dog below bench?,1,000000083663.jpg
+0,124,horse,,Is chair under horse?,0,000000543747.jpg
+0,125,bench,,Is dog on top of bench?,1,000000240653.jpg
+0,126,laptop,,Is bench behind laptop?,1,000000082894.jpg
+0,127,chair,,Is laptop above chair?,1,000000402858.jpg
+0,128,bench,,Is laptop on bench?,0,000000054723.jpg
+0,129,horse,,Is dog at the right side of horse?,1,000000422185.jpg
+0,130,dog,,Is bench touching dog?,0,000000380395.jpg
+0,131,chair,,Is dog in front of chair?,1,000000253785.jpg
+0,132,horse,,Is dog facing away from horse?,1,000000049269.jpg
+0,133,dog,,Is bench under dog?,0,000000452963.jpg
+0,134,dog,,Is surfboard under dog?,0,000000496252.jpg
+0,135,dog,,Is chair touching dog?,1,000000456003.jpg
+0,136,dog,,Is laptop in front of dog?,1,000000134112.jpg
+0,137,dog,,Is chair opposite to dog?,0,000000171595.jpg
+0,138,bench,,Is dog under bench?,0,000000575005.jpg
+0,139,dog,,Is chair under dog?,0,000000037059.jpg
+0,140,train,,Is motorcycle facing train?,1,000000187286.jpg
+0,141,laptop,,Is train contains laptop?,1,000000456730.jpg
+0,142,motorcycle,,Is dog on motorcycle?,0,000000007386.jpg
+0,143,dog,,Is wine glass facing dog?,0,000000552061.jpg
+0,144,dog,,Is skateboard in front of dog?,1,000000450518.jpg
+0,145,laptop,,Is dog at the edge of laptop?,1,000000038616.jpg
+0,146,train,,Is motorcycle facing train?,0,000000338407.jpg
+0,147,horse,,Is dog alongside horse?,1,000000366811.jpg
+0,148,horse,,Is dog opposite to horse?,0,000000112830.jpg
+0,149,frisbee,,Is dog by frisbee?,0,000000352205.jpg
+0,150,dog,,Is bench below dog?,1,000000501054.jpg
+0,151,motorcycle,,Is dog at the right side of motorcycle?,0,000000102763.jpg
+0,152,train,,Is laptop under train?,1,000000253004.jpg
+0,153,train,,Is laptop inside train?,1,000000224670.jpg
+0,154,motorcycle,,Is dog on motorcycle?,1,000000211449.jpg
+0,155,motorcycle,,Is train behind motorcycle?,0,000000227399.jpg
+0,156,dog,,Is chair under dog?,1,000000171026.jpg
+0,157,handbag,,Is chair touching handbag?,1,000000305224.jpg
+0,158,laptop,,Is train near laptop?,1,000000531049.jpg
+0,159,horse,,Is zebra left of horse?,1,000000108871.jpg
+0,160,bench,,Is dog far from bench?,0,000000501054.jpg
+0,161,chair,,Is dog under chair?,0,000000033111.jpg
+0,162,bench,,Is dog at the right side of bench?,0,000000391139.jpg
+0,163,laptop,,Is dog touching laptop?,0,000000428214.jpg
+0,164,wine glass,,Is dog facing wine glass?,1,000000522288.jpg
+0,165,train,,Is laptop under train?,0,000000076547.jpg
+0,166,dog,,Is bench below dog?,0,000000124316.jpg
+0,167,horse,,Is chair beneath horse?,0,000000342703.jpg
+0,168,horse,,Is chair away from horse?,0,000000572358.jpg
+0,169,dog,,Is motorcycle by dog?,1,000000107881.jpg
+0,170,surfboard,,Is dog far from surfboard?,0,000000372029.jpg
+0,171,bench,,Is laptop on top of bench?,0,000000412289.jpg
+0,172,dog,,Is refrigerator right of dog?,1,000000558671.jpg
+0,173,dog,,Is motorcycle under dog?,1,000000251716.jpg
+0,174,chair,,Is laptop facing chair?,1,000000110123.jpg
+0,175,dog,,Is refrigerator behind dog?,1,000000446522.jpg
+0,176,dog,,Is refrigerator contains dog?,0,000000391976.jpg
+0,177,laptop,,Is chair at the right side of laptop?,0,000000427726.jpg
+0,178,laptop,,Is bench below laptop?,1,000000476344.jpg
+0,179,refrigerator,,Is bench at the right side of refrigerator?,0,000000497591.jpg
+0,180,dog,,Is motorcycle at the left side of dog?,0,000000211449.jpg
+0,181,motorcycle,,Is dog on motorcycle?,0,000000472375.jpg
+0,182,horse,,Is zebra perpendicular to horse?,0,000000302924.jpg
+0,183,chair,,Is laptop facing chair?,0,000000561326.jpg
+0,184,chair,,Is dog under chair?,1,000000579591.jpg
+0,185,motorcycle,,Is dog on motorcycle?,1,000000102763.jpg
+0,186,dog,,Is laptop at the left side of dog?,0,000000025994.jpg
+0,187,motorcycle,,Is train behind motorcycle?,1,000000338407.jpg
+0,188,horse,,Is chair on top of horse?,0,000000468017.jpg
+0,189,train,,Is bench in front of train?,1,000000290959.jpg
+0,190,motorcycle,,Is dog on top of motorcycle?,0,000000189975.jpg
+0,191,horse,,Is chair beneath horse?,1,000000572358.jpg
+0,192,dog,,Is skateboard at the left side of dog?,1,000000251368.jpg
+0,193,dog,,Is skateboard at the left side of dog?,0,000000549220.jpg
+0,194,bench,,Is dog above bench?,0,000000370493.jpg
+0,195,motorcycle,,Is dog in motorcycle?,0,000000043433.jpg
+0,196,train,,Is bench part of train?,1,000000245450.jpg
+0,197,handbag,,Is dog inside handbag?,0,000000250069.jpg
+0,198,dog,,Is refrigerator contains dog?,1,000000350851.jpg
+0,199,chair,,Is laptop facing away from chair?,0,000000054091.jpg
+0,200,handbag,,Is dog inside handbag?,1,000000368132.jpg
+0,201,dog,,Is chair over dog?,1,000000313520.jpg
+0,202,dog,,Is bench above dog?,1,000000318467.jpg
+0,203,chair,,Is dog beneath chair?,0,000000392715.jpg
+0,204,laptop,,Is dog touching laptop?,0,000000474446.jpg
+0,205,horse,,Is dog at the right side of horse?,1,000000300322.jpg
+0,206,dog,,Is motorcycle in front of dog?,0,000000054744.jpg
+0,207,bench,,Is dog beneath bench?,0,000000545323.jpg
+0,208,bench,,Is dog beneath bench?,1,000000360045.jpg
+0,209,surfboard,,Is dog on surfboard?,0,000000580248.jpg
+0,210,motorcycle,,Is dog on top of motorcycle?,1,000000251716.jpg
+0,211,bench,,Is dog behind bench?,1,000000370493.jpg
+0,212,laptop,,Is dog next to laptop?,1,000000464871.jpg
+0,213,train,,Is laptop inside train?,0,000000253004.jpg
+0,214,horse,,Is dog alongside horse?,0,000000300322.jpg
+0,215,bench,,Is train behind bench?,0,000000366839.jpg
+0,216,dog,,Is motorcycle next to dog?,1,000000107881.jpg
+0,217,dog,,Is refrigerator behind dog?,0,000000333848.jpg
+0,218,bench,,Is dog at the right side of bench?,1,000000086754.jpg
+0,219,dog,,Is laptop in front of dog?,1,000000372919.jpg
+0,220,laptop,,Is dog above laptop?,1,000000011696.jpg
+0,221,bench,,Is dog at the edge of bench?,1,000000496606.jpg
+0,222,motorcycle,,Is train in front of motorcycle?,1,000000376625.jpg
+0,223,chair,,Is dog under chair?,1,000000359085.jpg
+0,224,chair,,Is train contains chair?,0,000000520879.jpg
+0,225,horse,,Is dog facing away from horse?,0,000000336568.jpg
+0,226,refrigerator,,Is laptop in front of refrigerator?,1,000000004731.jpg
+0,227,horse,,Is dog at the right side of horse?,0,000000050772.jpg
+0,228,dog,,Is bench above dog?,0,000000221865.jpg
+0,229,chair,,Is dog out of chair?,0,000000171026.jpg
+0,230,train,,Is motorcycle ahead of train?,0,000000187286.jpg
+0,231,dog,,Is chair touching dog?,0,000000369521.jpg
+0,232,refrigerator,,Is bench at the right side of refrigerator?,1,000000356648.jpg
+0,233,dog,,Is bench under dog?,1,000000046345.jpg
+0,234,laptop,,Is bench below laptop?,0,000000479595.jpg
+0,235,horse,,Is chair beneath horse?,0,000000129072.jpg
+0,236,bench,,Is dog on top of bench?,0,000000003862.jpg
+0,237,bench,,Is refrigerator facing bench?,0,000000061826.jpg
+0,238,laptop,,Is bench close to laptop?,1,000000147375.jpg
+0,239,dog,,Is motorcycle contains dog?,1,000000189975.jpg
+0,240,motorcycle,,Is dog in front of motorcycle?,1,000000472375.jpg
+0,241,laptop,,Is train next to laptop?,0,000000224670.jpg
+0,242,refrigerator,,Is laptop next to refrigerator?,1,000000426911.jpg
+0,243,dog,,Is motorcycle next to dog?,0,000000017697.jpg
+0,244,horse,,Is chair beneath horse?,0,000000042472.jpg
+0,245,bench,,Is dog far from bench?,1,000000548734.jpg
+0,246,chair,,Is dog on chair?,1,000000562574.jpg
+0,247,laptop,,Is train on laptop?,1,000000253004.jpg
+0,248,laptop,,Is train on top of laptop?,0,000000192707.jpg
+0,249,bench,,Is refrigerator at the back of bench?,0,000000540460.jpg
+0,250,horse,,Is chair below horse?,1,000000127576.jpg
+0,251,horse,,Is dog facing horse?,1,000000331503.jpg
+0,252,chair,,Is dog under chair?,0,000000039669.jpg
+0,253,dog,,Is motorcycle contains dog?,0,000000472375.jpg
+0,254,dog,,Is bench under dog?,0,000000549220.jpg
+0,255,chair,,Is laptop facing chair?,1,000000066376.jpg
+0,256,frisbee,,Is dog by frisbee?,1,000000320974.jpg
+0,257,train,,Is chair on train?,1,000000281660.jpg
+0,258,motorcycle,,Is dog below motorcycle?,0,000000251716.jpg
+0,259,laptop,,Is dog touching laptop?,1,000000043345.jpg
+0,260,handbag,,Is bench touching handbag?,0,000000191900.jpg
+0,261,refrigerator,,Is laptop next to refrigerator?,0,000000407390.jpg
+0,262,bench,,Is train beyond bench?,1,000000101913.jpg
+0,263,dog,,Is laptop left of dog?,1,000000434275.jpg
+0,264,dog,,Is motorcycle in front of dog?,0,000000378163.jpg
+0,265,motorcycle,,Is dog at the right side of motorcycle?,1,000000054744.jpg
+0,266,laptop,,Is bench touching laptop?,0,000000054723.jpg
+0,267,laptop,,Is dog at the right side of laptop?,1,000000434275.jpg
+0,268,train,,Is laptop beside train?,1,000000531049.jpg
+0,269,dog,,Is bench over dog?,0,000000443702.jpg
+0,270,laptop,,Is chair behind laptop?,0,000000343503.jpg
+0,271,motorcycle,,Is train behind motorcycle?,0,000000376625.jpg
+0,272,laptop,,Is bench close to laptop?,1,000000054723.jpg
+0,273,chair,,Is dog on chair?,0,000000327498.jpg
+0,274,dog,,Is motorcycle under dog?,0,000000007386.jpg
+0,275,horse,,Is chair under horse?,1,000000127576.jpg
+0,276,laptop,,Is train on laptop?,0,000000192707.jpg
+0,277,wine glass,,Is dog facing wine glass?,0,000000552061.jpg
+0,278,bench,,Is laptop at the edge of bench?,0,000000147375.jpg
+0,279,bench,,Is train beyond bench?,0,000000120826.jpg
+0,280,horse,,Is bench surrounding horse?,0,000000084230.jpg
+0,281,train,,Is bench in front of train?,0,000000550624.jpg
+0,282,laptop,,Is train contains laptop?,1,000000224670.jpg
+0,283,motorcycle,,Is dog on top of motorcycle?,1,000000411417.jpg
+0,284,train,,Is laptop in train?,0,000000253004.jpg
+0,285,laptop,,Is chair behind laptop?,1,000000306822.jpg
+0,286,motorcycle,,Is dog at the left side of motorcycle?,1,000000107881.jpg
+0,287,chair,,Is dog on chair?,0,000000268051.jpg
+0,288,dog,,Is laptop next to dog?,1,000000565042.jpg
+0,289,chair,,Is laptop facing chair?,0,000000020481.jpg
+0,290,motorcycle,,Is dog on top of motorcycle?,0,000000054744.jpg
+0,291,horse,,Is chair behind horse?,0,000000290076.jpg
+0,292,horse,,Is dog at the left side of horse?,0,000000422185.jpg
+0,293,motorcycle,,Is dog on top of motorcycle?,1,000000102763.jpg
+0,294,dog,,Is motorcycle behind dog?,1,000000168317.jpg
+0,295,handbag,,Is chair touching handbag?,0,000000052847.jpg
+0,296,horse,,Is chair behind horse?,1,000000129072.jpg
+0,297,chair,,Is dog under chair?,0,000000146623.jpg
+0,298,dog,,Is motorcycle under dog?,0,000000168317.jpg
+0,299,laptop,,Is dog close to laptop?,1,000000074913.jpg
+0,300,laptop,,Is dog next to laptop?,0,000000166853.jpg
+0,301,bench,,Is dog behind bench?,0,000000383662.jpg
+0,302,bench,,Is refrigerator at the back of bench?,1,000000356648.jpg
+0,303,bench,,Is dog above bench?,1,000000092188.jpg
+0,304,dog,,Is refrigerator behind dog?,1,000000567106.jpg
+0,305,train,,Is laptop in train?,1,000000456730.jpg
+0,306,chair,,Is dog on chair?,0,000000313520.jpg
+0,307,bench,,Is laptop on bench?,1,000000257629.jpg
+0,308,chair,,Is train away from chair?,0,000000281660.jpg
+0,309,laptop,,Is train next to laptop?,1,000000531049.jpg
+0,310,chair,,Is dog on chair?,1,000000499225.jpg
+0,311,dog,,Is refrigerator contains dog?,0,000000335581.jpg
+0,312,train,,Is chair against train?,1,000000281660.jpg
+0,313,chair,,Is dog out of chair?,1,000000499930.jpg
+0,314,handbag,,Is bench touching handbag?,1,000000560359.jpg
+0,315,horse,,Is chair under horse?,0,000000129072.jpg
+0,316,motorcycle,,Is dog on motorcycle?,1,000000378163.jpg
+0,317,dog,,Is chair at the right side of dog?,0,000000082807.jpg
+0,318,chair,,Is dog in the middle of chair?,0,000000047724.jpg
+0,319,dog,,Is skateboard in front of dog?,0,000000518613.jpg
+0,320,refrigerator,,Is bench in front of refrigerator?,0,000000256835.jpg
+0,321,dog,,Is motorcycle behind dog?,1,000000472375.jpg
+0,322,train,,Is motorcycle at the left side of train?,1,000000281818.jpg
+0,323,motorcycle,,Is dog above motorcycle?,0,000000564053.jpg
+0,324,dog,,Is chair above dog?,0,000000346158.jpg
+0,325,train,,Is motorcycle ahead of train?,0,000000338407.jpg
+0,326,laptop,,Is dog touching laptop?,1,000000228857.jpg
+0,327,horse,,Is dog at the right side of horse?,0,000000471929.jpg
+0,328,chair,,Is dog on chair?,1,000000504293.jpg
+0,329,train,,Is bench at the right side of train?,0,000000239417.jpg
+0,330,handbag,,Is laptop on top of handbag?,0,000000323268.jpg
+0,331,bench,,Is laptop touching bench?,0,000000264250.jpg
+0,332,chair,,Is train contains chair?,1,000000281660.jpg
+0,333,bench,,Is refrigerator behind bench?,1,000000497591.jpg
+0,334,chair,,Is train contains chair?,0,000000515360.jpg
+0,335,chair,,Is dog in the middle of chair?,1,000000454730.jpg
+0,336,dog,,Is motorcycle behind dog?,0,000000564053.jpg
+0,337,horse,,Is chair behind horse?,0,000000553850.jpg
+0,338,dog,,Is chair under dog?,1,000000446522.jpg
+0,339,laptop,,Is dog at the right side of laptop?,0,000000025994.jpg

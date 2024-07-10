@@ -1,0 +1,18 @@
+# For example:
+multiprocessing: False
+path_pretrained_models: './pretrained_models'
+dataset:
+    data_path: '/datasets/covr'
+    input_type: 'images'
+    split: 'covr_csv' 
+    max_samples: 4000
+    start_sample: 0
+codex:
+    prompt: ./prompts/chatapi_covr_recursive_noclass.prompt   # Codex prompt file, which defines the API. (doesn't support video for now due to token limits)
+    nonrecursive_prompt: ./prompts/chatapi_covr_recursive_noclass.prompt
+
+blip_v2_model_type: blip2-flan-t5-xxl  # Change to blip2-flan-t5-xl for smaller GPUs
+blip_half_precision: True
+fixed_code_file: ./prompts/fixed_code/imagesblip2.prompt
+# Add more changes here, following the same format as base_config.yaml
+use_fixed_code: False

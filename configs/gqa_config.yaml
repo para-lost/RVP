@@ -1,0 +1,24 @@
+# For example:
+multiprocessing: False
+path_pretrained_models: './pretrained_models'
+dataset:
+    data_path: '/data/gqa'
+    input_type: 'image'
+    split: 'gqa_csv' 
+    max_samples: 6000   
+    start_sample: 0
+codex:
+    prompt: ./prompts/chatapi_gqa_recursivenew_noclass.prompt   # Codex prompt file, which defines the API. (doesn't support video for now due to token limits)
+    # Use this prompt to retrieve the examples
+    # prompt: ./prompts/chatapi_gqa_retrieval_samefile.prompt   
+    
+    # Prompt pool: In-context examples to retrieve from
+    prompt_pool: ./prompts/choices/gqa_prompts_dict_recursive_new2.json
+    # prompt_pool: ./prompts/choices/gqa_prompts_dict_nonrecursive.json
+    prompt_nonrecursive_pool: ./prompts/choices/gqa_prompts_dict_nonrecursive_new.json
+
+blip_v2_model_type: blip2-flan-t5-xxl  # Change to blip2-flan-t5-xl for smaller GPUs
+blip_half_precision: True
+fixed_code_file: ./prompts/fixed_code/blip2.prompt
+use_fixed_code: False
+

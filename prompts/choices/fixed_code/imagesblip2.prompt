@@ -1,0 +1,7 @@
+    
+    image = image_list[0]
+    image_patch = ImagePatch(image)
+    if '?' not in query:
+        query = "Is this statement true or false? " + query
+    print(query)
+    return image_patch.simple_query(query)

@@ -1,0 +1,16 @@
+    print("Using fixed code for now!")
+    print(query)
+    video_segment = VideoSegment(video)
+    first_frame = video_segment.frame_from_index(0)
+    mid_frame = video_segment.frame_from_index(video_segment.num_frames//2)
+    last_frame = video_segment.frame_from_index(-1)
+    first_frame_query_answer = first_frame.simple_query("Caption:")
+    mid_frame_query_answer = mid_frame.simple_query("Caption: ")
+    last_frame_query_answer = last_frame.simple_query("Caption: ")
+    info = {
+        "First frame of the video": first_frame_query_answer, 
+        "Middle frame of the video": mid_frame_query_answer, 
+        "Last frame of the video": last_frame_query_answer, 
+        }
+    answer = select_answer(video, info, query, possible_answers)
+    return answer

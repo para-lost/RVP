@@ -1,0 +1,16 @@
+# For example:
+multiprocessing: False
+path_pretrained_models: './pretrained_models'
+dataset:
+    data_path: '/datasets/nextqa'
+    split: 'nextqa_csv'    
+    input_type: 'video'
+    max_samples: 1500
+    start_sample: 0
+codex:
+    prompt: ./prompts/chatapi_nextqa_recursive.prompt                                    # Number of tries to choose from. Use when temperature > 0
+    nonrecursive_prompt: ./prompts/chatapi_nextqa_nonrecursive.prompt     
+    max_tokens: 512
+blip_v2_model_type: blip2-flan-t5-xxl  # Change to blip2-flan-t5-xl for smaller GPUs
+blip_half_precision: True
+fixed_code_file: ./prompts/fixed_code/videoblip2.prompt

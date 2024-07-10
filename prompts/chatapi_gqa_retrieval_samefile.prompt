@@ -1,0 +1,172 @@
+import math
+
+Write a function using Python and the ImagePatch class (above) that could be executed to provide an answer to the query. 
+
+Consider the following guidelines:
+- Use base Python (comparison, sorting) for basic logical operations, left/right/up/down, math, etc.
+- Try to solve the problem recursively by calling recursive_query!! That is you should first decompose a complicated problem into simpler problems, and then further decompose into basic problems.
+- The last returning logic (else:) should be simple_query!!!
+
+class ImagePatch:
+    """A Python class containing a crop of an image centered around a particular object, as well as relevant information.
+    Attributes
+    ----------
+    cropped_image : array_like
+        An array-like of the cropped image taken from the original image.
+    left, lower, right, upper : int
+        An int describing the position of the (left/lower/right/upper) border of the crop's bounding box in the original image.
+
+    Methods
+    -------
+    find(object_name: str)->List[ImagePatch]
+        Returns a list of new ImagePatch objects containing crops of the image centered around any objects found in the
+        image matching the object_name.
+    exists(object_name: str)->bool
+        Returns True if the object specified by object_name is found in the image, and False otherwise.
+    verify_property(object: str, property: str)->bool
+        Returns True if the property of the object is met, and False otherwise.
+    recursive_query(question: str)-> Any
+        Returns the answer to a complicated question asked about the image. 
+    simple_query(question: str=None)->str
+        Returns the answer to a basic question asked about the image. 
+    compute_depth()->float
+        Returns the median depth of the image crop.
+    crop(left: int, lower: int, right: int, upper: int)->ImagePatch
+        Returns a new ImagePatch object containing a crop of the image at the given coordinates.
+    """
+
+def bool_to_yesno(bool_answer: bool) -> str:
+    return "yes" if bool_answer else "no"
+
+def yesno_to_bool(str_answer: str) -> bool:
+    return True if str_answer=="yes" else False
+
+def coerce_to_numeric(string):
+    """
+    This function takes a string as input and returns a float after removing any non-numeric characters.
+    If the input string contains a range (e.g. "10-15"), it returns the first value in the range.
+    """
+    return coerce_to_numeric(string)
+
+Write a function using Python and the ImagePatch class (above) that could be executed to provide an answer to the query. 
+
+You will be given some examples:
+
+API Examples
+# return the foo
+def execute_command(image) -> List[ImagePatch]:
+    image_patch = ImagePatch(image)
+    foo_patches = image_patch.find("foo")
+    return foo_patches
+
+# Are there both foos and garply bars in the photo?
+def execute_command(image)->str:
+    image_patch = ImagePatch(image)
+    is_foo = image_patch.exists("foo")
+    is_garply_bar = image_patch.exists("garply bar")
+    return bool_to_yesno(is_foo and is_garply_bar)
+
+# Is the second bar from the left quuxy?
+def execute_command(image) -> str:
+    image_patch = ImagePatch(image)
+    bar_patches = image_patch.find("bar")
+    bar_patches.sort(key=lambda x: x.horizontal_center)
+    bar_patch = bar_patches[1]
+    return bar_patch.simple_query("Is the bar quuxy?")
+
+# Do the letters have blue color?
+def execute_command(image) -> str:
+    image_patch = ImagePatch(image)
+    letters_patches = image_patch.find("letters")
+    # Question assumes only one letter patch
+    return bool_to_yesno(letters_patches[0].verify_property("letters", "blue"))
+
+# Return the qux that is closest to the foo
+def execute_command(image):
+    image_patch = ImagePatch(image)
+    qux_patches = image_patch.find('qux')
+    foo_patches = image_patch.find('foo')
+    foo_patch = foo_patches[0]
+    qux_patches.sort(key=lambda x: distance(x, foo_patch))
+    return qux_patches[0]
+    
+Non-recursive Examples:
+Example 1: 
+# Does the person to the left of the skateboard look young?
+def execute_command(image)->str:
+    image_patch = ImagePatch(image)
+    person_patches = image_patch.find(""person"")
+    skateboard_patches = image_patch.find(""skateboard"")
+    if len(person_patches) == 0 or len(skateboard_patches) == 0:
+        return image_patch.simple_query(""Does the person to the left of the skateboard look young?"")
+    skateboard_patch = skateboard_patches[0]
+    for person_patch in person_patches:
+        if person_patch.horizontal_center < skateboard_patch.horizontal_center:
+            return person_patch.simple_query(""Does the person look young?"")
+    return image_patch.simple_query(""Does the person to the left of the skateboard look young?"")
+
+Example 2:     
+# Is there a backpack to the right of the man?
+def execute_command(image)->str:
+    image_patch = ImagePatch(image)
+    man_patches = image_patch.find("man")
+    # Question assumes one man patch
+    if len(man_patches) == 0:
+        # If no man is found, query the image directly
+        return image_patch.simple_query("Is there a backpack to the right of the man?")
+    man_patch = man_patches[0]
+    backpack_patches = image_patch.find("backpack")
+    # Question assumes one backpack patch
+    if len(backpack_patches) == 0:
+        return "no"
+    for backpack_patch in backpack_patches:
+        if backpack_patch.horizontal_center > man_patch.horizontal_center:
+            return "yes"
+    return "no"
+
+Example 3:
+# On which side of the picture are the people?
+def execute_command(image)->str:
+    image_patch = ImagePatch(image)
+    people_patches = image_patch.find(""people"")
+    if len(people_patches) == 0:
+        return image_patch.simple_query("On which side of the picture are the people?")
+    else:
+        people_positions = [patch.horizontal_center for patch in people_patches]
+        average_position = sum(people_positions) / len(people_positions)
+        if average_position < image_patch.horizontal_center:
+            return ""left""
+        else:
+            return ""right""
+
+Example 4:     
+# What kind of device is made of the same material as the device above the desk?
+def execute_command(image) -> str:
+    image_patch = ImagePatch(image)
+    # First, determine the name of the device above the desk and its material
+    desk_patches = image_patch.find(""desk"")
+    desk_patch = desk_patches[0]
+    device_patches = image_patch.find(""device"")
+    name_device_above_desk = image_patch.simple_query("Return a str, What is the name of the device above the desk?")
+    for device_patch in device_patches:
+        if device_patch.vertical_center > desk_patch.vertical_center:
+            name_device_above_desk = device_patch.simple_query("What is the name of this device?")
+    # Then, loop through all the other devices to see if it is made of the same material as the device above the desk
+    material_device_above_desk = image_patch.simple_query(f""Return a str, What material is the device above the desk made of?"")
+    for device_patch in device_patches:
+        device_name = device_patch.simple_query("What is the name of this device?")
+        if device_name != name_device_above_desk and 'yes' == device_patch.simple_query(f"Is this device made of {material_device_above_desk}?"):
+            return device_patch.simple_query(""What kind of device is this?"")
+    return image_patch.simple_query("What kind of device is made of the same material as the device above the desk?")
+
+Recursive Examples:
+# INSERT_EXAMPLES_HERE
+
+Don't return long strings like "unknown", "I don't know" "doesn't exist"!!! If such thing happens, you should instead use image_patch.simple_query(query) as the last returning logic.
+Now, Only answer with a single function starting def execute_command!
+
+- Only uses the provided APIs!!
+- Make sure to return a short answer!! Like return "car" instead of "the car"/'a car'
+- Never return 'unknown'
+
+# INSERT_QUERY_HERE

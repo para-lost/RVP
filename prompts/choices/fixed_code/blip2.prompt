@@ -1,0 +1,4 @@
+
+    image_patch = ImagePatch(image)
+    print(query)
+    return image_patch.simple_query(query)
