@@ -1,6 +1,6 @@
 # RVP: Recursive Visual Programming
 
-This is the code for the paper [Recursive Visual Programming](https://arxiv.org/abs/2312.02249) by [Jiaxin Ge](https://jiaxin.ge/)\* [Sanjay Subramanian](https://people.eecs.berkeley.edu/~sanjayss/)\* [Baifeng Shi](https://bfshi.github.io/)\* [Roei Herzig](https://roeiherz.github.io/)\* [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/).
+This is the code for the paper [Recursive Visual Programming](https://arxiv.org/abs/2312.02249) by [Jiaxin Ge](https://jiaxin.ge/) [Sanjay Subramanian](https://people.eecs.berkeley.edu/~sanjayss/) [Baifeng Shi](https://bfshi.github.io/) [Roei Herzig](https://roeiherz.github.io/) [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/).
 
 ![teaser](teaser.jpg "Teaser")
 
